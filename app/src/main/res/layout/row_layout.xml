@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="80dp"
+    android:background="#9dd3d8"
+    >
+
+
+    <ImageView
+
+        android:id="@+id/img_vegetable"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/img2"
+        android:layout_margin="5dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="25dp"
+        android:text="Tomato"
+        android:layout_toRightOf="@+id/img_vegetable"
+
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/tv_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#aa5445f1"
+        android:text="R$: 1.50Kg"
+        />
+
+
+</RelativeLayout>

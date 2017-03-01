@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lista de Vegetais</string>
+
+    <string-array name="name_vegetables">
+        <item>Tomate</item>
+        <item>Pimenta</item>
+        <item>Pepino</item>
+        <item>Broculis</item>
+        <item>Milho</item>
+    </string-array>
+
+    <string-array name="price_vegetables">
+        <item>1.50</item>
+        <item>3.00</item>
+        <item>5.60</item>
+        <item>3.50</item>
+        <item>2.20</item>
+
+
+    </string-array>
+
+</resources>
